@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsc && cp src/students.csv build && cp src/customer_report.csv build",
+        "format": "prettier --check --ignore-unknown .",
+        "format:fix": "prettier --write --ignore-unknown .",
+        "start": "npm run build && node build/main.js",
+        "start:cloud": "npm run build && node build/cloud.js"
+    },
+    "dependencies": {
+        "@glaredb/glaredb": "0.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "20.10.6",
+        "prettier": "3.1.1",
+        "typescript": "5.3.3"
+    }
+}
