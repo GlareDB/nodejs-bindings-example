@@ -45,7 +45,9 @@ with local data in `customer_report.csv`. To run this example:
    ![Create your first source](./assets/sql_workspace_first_source.png)
 
 3. Click **Run** to run the query. The **Explorer** on the left will now contain
-   the Postgres database, called `my_pg`. You can explore the database.
+   the Postgres database, called `my_pg`. You can explore the database. To
+   ensure you're viewing the freshest schema, click the refresh icon at the top
+   of the explorer.
 
    ![Postgres source](./assets/sql_workspace_my_pg.png)
 
@@ -56,7 +58,9 @@ with local data in `customer_report.csv`. To run this example:
    ![Customer table](./assets/sql_workspace_my_pg_customer.png)
 
 4. Click the **Connect** button (next to Run) to open the **Connection modal**.
-   Navigate to the **Node.js** tab and copy the **Connection String**.
+   Navigate to the **Node.js** tab and copy the **Connection String**. If you're
+   a returning user and didn't store your password, click new password to create
+   a new user/password pair. Passwords are displayed only once.
 
    ![Connection modal](./assets/connect.png)
 
