@@ -3,7 +3,8 @@
 GlareDB is a fast SQL database for running analytics across distributed data.
 
 This repository contains examples of using GlareDB Node.js bindings to
-analyze local files and join them with remote data in [GlareDB Cloud].
+analyze local files and join them with remote data in [GlareDB Cloud]. There
+is also a blog post accompanying this repository: <https://glaredb.com/blog/node-bindings-announcement>.
 
 You can use these bindings with JavaScript and TypeScript.
 
