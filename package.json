@@ -9,7 +9,7 @@
         "start:cloud": "npm run build && node build/cloud.js"
     },
     "dependencies": {
-        "@glaredb/glaredb": "0.7.0"
+        "@glaredb/glaredb": "0.8.1"
     },
     "devDependencies": {
         "@types/node": "20.10.6",
